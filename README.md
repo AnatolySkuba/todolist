@@ -1,44 +1,4 @@
-# CGS Test project
-
-> For This project use [MERN stack](https://www.mongodb.com/languages/mern-stack-tutorial)
-
-## Project commands
-
-`yarn start` - to launch your project
-
-## Pre requirements
-
-Watch this video:
-[Hook Setup](https://drive.google.com/file/d/1kZGYqx_9Pu29PcdBv6TNOCKOeZa0yh52/view?usp=sharing)
-
-1. Pull repo.
-2. `git checkout -b <name that you have set in pre-requirements>/main`
-3. `git push origin <name that you have set in pre-requirements>/main`
-4. If you are windows user, make sure that `bash` have been installed if not check [Installation link](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3);
-5. Open Terminal in your project (make sure that you are in main directory with `hooks` folder)
-6. (ONLY FOR WINDOWS USERS) Change first line in `./hooks/commit-msg`, `./hooks/pre-commit` and `./hooks/setup/hooks` from `#!/bin/sh` to `#!/bin/bash`;
-7. Run `nano ./hooks/pre-commit` and change `USER_NAME="user_name"` on third string to `USER_NAME="<YOUR-NAME_LAST_NAME>"` Example: `USER_NAME="my_name"` and save the file.
-8. Run command `yarn configure:hooks` (FOR WINDOWS USERS `yarn configure:hooks:windows`);
-9. Run command `yarn start`
-
-Now you can run project by calling `yarn start`
-
-Avoid Upper case! Do not use `N_Surname` syntax or `Implement-Crud-Todo` syntax
-
-If you keep experiencing something like: **tslint: command not found**
-please do the following:
-
-```
-
-yarn global add tslint typescript
-
-```
-
-link: https://stackoverflow.com/questions/36910592/enabling-eslint-on-typescript-files/64175035#64175035
-
-## Time-frames
-
-Time-frames of the test task is highly important! You have only 2 weeks for the task below, please use this time wisely. Good luck!
+# Todo list project
 
 ## Required features
 
