@@ -14,7 +14,7 @@ const HomePageContainer: () => JSX.Element = () => (
     }}
   >
     <AppWrapper textAlign="center">
-      <AppName>App Name</AppName>
+      <AppName>Todo list</AppName>
       <AuthLink to="/login">
         <AuthButtonComponent>Login</AuthButtonComponent>
       </AuthLink>
