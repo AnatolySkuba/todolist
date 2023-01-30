@@ -21,6 +21,7 @@
     "@types/yup": "^0.32.0",
     "axios": "^1.2.3",
     "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-prettier": "^4.2.1",
     "formik": "^2.2.9",
     "react": "^17.0.2",
